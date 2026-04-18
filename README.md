@@ -12,3 +12,11 @@ OpenSCADを使用して、ソクタイプ型のキーキャップを再現する
 OpenSCADを使用して作成します。
 ## 製作に必要なもの
 M2 6mm ねじ ×14
+| Left align | Right align | Center align |
+|:-----------|------------:|:------------:|
+| This       |        This |     This     |
+| column     |      column |    column    |
+| will       |        will |     will     |
+| be         |          be |      be      |
+| left       |       right |    center    |
+| aligned    |     aligned |   aligned    |
