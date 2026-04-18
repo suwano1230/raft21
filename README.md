@@ -11,10 +11,10 @@ OpenSCADを使用して、ソクタイプ型のキーキャップを再現する
 ## ケース
 OpenSCADを使用して作成します。
 ## 製作に必要なもの
-M2 6mm ねじ ×14
-| Right align  | Center align |
+ ×14
+| 名称　　　　  |　個数　　　　 |
 |:------------:|:------------:|
-|        This  |     This     |
+| M2 6mm ねじ  |     14     |
 |      column  |    column    |
 |        will  |     will     |
 |          be  |      be      |
