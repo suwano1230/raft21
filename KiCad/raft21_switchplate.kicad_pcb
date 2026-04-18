@@ -1,0 +1,3465 @@
+(kicad_pcb
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A3")
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+	)
+	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
+		(pad_to_mask_clearance 0.051)
+		(solder_mask_min_width 0.25)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes no)
+			(usegerberadvancedattributes no)
+			(creategerberjobfile no)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 0)
+			(scaleselection 1)
+			(outputdirectory "../../新しいフォルダー/")
+		)
+	)
+	(net 0 "")
+	(footprint "BrownSugar_KBD:Stabilizer_MX_Plate_Mount_2U"
+		(layer "F.Cu")
+		(uuid "09b48d48-647f-47cc-aaa6-6894419c3df8")
+		(at 116.823167 81.720935 10)
+		(property "Reference" "REF**"
+			(at 0 0 10)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fca6823d-601e-491e-9477-4760825d6877")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1U"
+			(at 0 -8 10)
+			(layer "F.Fab")
+			(uuid "7abe5fdc-ab2d-49be-a793-cd9d0a104f77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 10)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fda477e-bc65-428a-846d-271f8ed4414b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 10)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ab66247-6a2a-48ca-b521-8b966b12c69b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start -6.985 -6.985)
+			(end -6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c607289e-4594-4e32-b182-b87feab7f7b0")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end 6.985 -6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "98c40a60-23b7-423c-a534-5ff9f3b3752b")
+		)
+		(fp_line
+			(start -6.985 5.8166)
+			(end -6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2250c956-1289-4a5b-bf1c-90f6c0dceb84")
+		)
+		(fp_line
+			(start -6.985 6.985)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "110b48cb-1504-41bd-9180-31c051e8668c")
+		)
+		(fp_line
+			(start 6.985 -6.985)
+			(end 6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "857b8cf0-c26b-4c60-9a3d-393c0b3b3419")
+		)
+		(fp_line
+			(start 6.985 5.8166)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f52a0404-7f5f-41c9-b23d-24ee14741bc0")
+		)
+		(embedded_fonts no)
+		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/stabilizer/plate_mount/KiCad/stabilizer_2u.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "BrownSugar_KBD:Stabilizer_MX_Plate_Mount_2U"
+		(layer "F.Cu")
+		(uuid "189d9932-ff46-495a-aced-f43e07469c21")
+		(at 51.829838 43.273027 -10)
+		(property "Reference" "REF**"
+			(at 0 0 170)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6351dcf1-0102-41bd-8102-88f5b1cd1d2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1U"
+			(at 0 -8 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "333e5f90-bec3-4644-894c-d143244a884f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00863186-6042-4dfd-a115-444611ee3d34")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fea37b04-2abe-45ef-899a-121f9ea44470")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start -6.985 6.985)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0fab79b9-9fb0-45c7-9962-7b46e3b49d33")
+		)
+		(fp_line
+			(start -6.985 5.8166)
+			(end -6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f042af9c-df05-4228-a5a1-c1b7cd0d4d4e")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end -6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "50248a96-7ecc-44b6-a3a5-f8afa61a5910")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end 6.985 -6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2e4763cf-beb8-40b5-97b8-428d038e7655")
+		)
+		(fp_line
+			(start 6.985 5.8166)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7f1a4a63-d1e9-40a2-85f9-34d9009c7887")
+		)
+		(fp_line
+			(start 6.985 -6.985)
+			(end 6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "53e726c7-b0a1-4408-a702-e02adce49944")
+		)
+		(embedded_fonts no)
+		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/stabilizer/plate_mount/KiCad/stabilizer_2u.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "1c62e97d-0dd5-432d-9270-dcd651246783")
+		(at 180 5)
+		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
+		(tags "mountinghole M2")
+		(property "Reference" "REF**"
+			(at 0 -3.15 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "79a88d2a-f167-4c32-a99d-3c1f82a648d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(uuid "0b2312c2-f056-4cc3-aa57-58bee9d8851e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da143469-48dc-4de8-96da-b5d65dcbec5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50895583-8905-4580-b095-6ae90c2142a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "e3a09d24-2795-430c-925b-bc04f285ad4d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "64f402c2-7de2-4292-b16d-38c912981d88")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "93c4ba84-dba6-4ef9-8b8f-26f4977f7a40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "272466a4-934f-4f19-94f0-b49bc575edc9")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "BrownSugar_KBD:Stabilizer_MX_Plate_Mount_2U"
+		(layer "F.Cu")
+		(uuid "260edbde-5c65-4f23-aacc-56683beaf035")
+		(at 97.489415 81.097608)
+		(property "Reference" "REF**"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "da28dbaa-3934-481a-82c8-9004f1d0fe47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1U"
+			(at 0 -8 0)
+			(layer "F.Fab")
+			(uuid "e3a675cf-aa06-4a2e-b187-91fda9b06ec1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50722510-0839-41e1-b947-74c2167eebee")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30601b86-ff07-4048-a0a6-538c78aa9e90")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start -6.985 -6.985)
+			(end -6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "621f808a-ab84-41ad-8c50-852889924fe5")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end 6.985 -6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "06b248d5-26c3-4b4d-8ad5-ba121efd2673")
+		)
+		(fp_line
+			(start -6.985 5.8166)
+			(end -6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e2c20fd5-6ed7-4bd0-b1ac-e2c5a4ed6101")
+		)
+		(fp_line
+			(start -6.985 6.985)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "44de30c3-06d7-40c3-a1cb-e969318c6160")
+		)
+		(fp_line
+			(start 6.985 -6.985)
+			(end 6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9020607b-d57d-42db-bba4-f7e78beade43")
+		)
+		(fp_line
+			(start 6.985 5.8166)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "53ab7299-536f-45ee-9c4f-0358ffb11689")
+		)
+		(embedded_fonts no)
+		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/stabilizer/plate_mount/KiCad/stabilizer_2u.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "BrownSugar_KBD:Stabilizer_MX_Plate_Mount_2U"
+		(layer "F.Cu")
+		(uuid "29c1a265-8b3b-4e98-a46f-1c0f65f44d3f")
+		(at 34.773838 41.812027 -10)
+		(property "Reference" "REF**"
+			(at 0 0 170)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bb6702d6-5063-404e-96fb-2ba4b6dea4e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1U"
+			(at 0 -8 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d356667-6928-4026-bd27-64378a1879b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd090d8b-6f93-4392-a8a2-2cb2b5cc7642")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b1394ec-a9f9-48ae-930c-68043c5baae8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start -6.985 6.985)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4a1f6646-da84-4374-9cf7-4901d9808a4e")
+		)
+		(fp_line
+			(start -6.985 5.8166)
+			(end -6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "880f738d-2b7f-4921-9215-2990e6276a22")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end -6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1e3b00c3-051c-4186-ba16-0a28687ffa7e")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end 6.985 -6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3f20a1bd-9830-4e1a-ac6c-81aec651d235")
+		)
+		(fp_line
+			(start 6.985 5.8166)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f6184df6-1241-4d22-966f-5c0f57064b6d")
+		)
+		(fp_line
+			(start 6.985 -6.985)
+			(end 6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8d1a46fa-08be-47aa-991f-54ae9fbd7d20")
+		)
+		(embedded_fonts no)
+		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/stabilizer/plate_mount/KiCad/stabilizer_2u.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "BrownSugar_KBD:Stabilizer_MX_Plate_Mount_2U"
+		(layer "F.Cu")
+		(uuid "335f21ff-970a-4fa2-a0e0-85dff6a62e75")
+		(at 123.041427 24.467932 10)
+		(property "Reference" "REF**"
+			(at 0 0 10)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f72e8b41-788b-420f-b0f3-bb237c73f5e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1U"
+			(at 0 -8 10)
+			(layer "F.Fab")
+			(uuid "a7e37325-eef7-4416-ae4a-e9f9351c172c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 10)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "617c567c-aa38-4194-b2c8-542ea2aaa615")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 10)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "609e9073-18f1-4e5d-8e57-a40611ee8194")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start -6.985 -6.985)
+			(end -6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b2531b71-0b16-4df7-b9ea-f967b450372d")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end 6.985 -6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "44a8d7ab-58a9-4618-9d1d-4d0c1bd45c4f")
+		)
+		(fp_line
+			(start -6.985 5.8166)
+			(end -6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "266bd97a-0af1-46ed-a911-8945f49f0b6f")
+		)
+		(fp_line
+			(start -6.985 6.985)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a7dadd85-38fa-4aa2-91b0-babae0cd1f11")
+		)
+		(fp_line
+			(start 6.985 -6.985)
+			(end 6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4c5f33f6-cf6f-4142-b594-843a99e6f644")
+		)
+		(fp_line
+			(start 6.985 5.8166)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "eaf3ad11-0ba9-4784-88d5-6a7a467708cd")
+		)
+		(embedded_fonts no)
+		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/stabilizer/plate_mount/KiCad/stabilizer_2u.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "BrownSugar_KBD:Stabilizer_MX_Plate_Mount_2U"
+		(layer "F.Cu")
+		(uuid "39056db5-1eb4-4757-8ed2-a626468006fc")
+		(at 178.225548 37.21843 10)
+		(property "Reference" "REF**"
+			(at 0 0 10)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "720c2278-371e-4c7c-98c3-27800455a9c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1U"
+			(at 0 -8 10)
+			(layer "F.Fab")
+			(uuid "ea699a58-3d59-4e5c-a65e-013fd388b22a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 10)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "947178df-1d86-4012-8a65-5e22e3ca0c39")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 10)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6a7f33b-22e3-43bb-8335-5baaea9af4c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start -6.985 -6.985)
+			(end -6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "777e4a05-5a52-4f79-9e95-6e89a3ca4ac7")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end 6.985 -6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "dfc71ebf-6a51-4d61-8737-195070110b68")
+		)
+		(fp_line
+			(start -6.985 5.8166)
+			(end -6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f51e2163-1742-43f0-99ba-82c2d9882faa")
+		)
+		(fp_line
+			(start -6.985 6.985)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f03293d5-fa12-45bd-bd32-ab540f73f032")
+		)
+		(fp_line
+			(start 6.985 -6.985)
+			(end 6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8aaccb30-e454-44dc-8fab-06fee5bb75e5")
+		)
+		(fp_line
+			(start 6.985 5.8166)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f419bf0e-2568-4b3f-9d1c-5612c4921973")
+		)
+		(embedded_fonts no)
+		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/stabilizer/plate_mount/KiCad/stabilizer_2u.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "41bc9c4c-1c9f-4136-b2c3-642a04ab24f3")
+		(at 180 95)
+		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
+		(tags "mountinghole M2")
+		(property "Reference" "REF**"
+			(at 0 -3.15 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1a969e1b-336a-48ad-a453-31b797b403b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(uuid "1ede1c32-a8aa-496c-b98e-b0cf3e8006eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2220b5cb-2290-423e-aa21-20ea407b5970")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "accbf13e-eb6a-4f5a-8caa-888dd1b7980b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "ab8cfbc8-1853-4e76-a378-c1d95e6fb41e")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "1bbac8f4-1f31-4130-991a-b14178865baa")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "8af55759-92a9-4bfa-b66f-fb7eb07efab0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "2895e10f-81dc-455e-83e2-37a4ca18f2d1")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "BrownSugar_KBD:Stabilizer_MX_Plate_Mount_2U"
+		(layer "F.Cu")
+		(uuid "4351c5c5-c0a7-4d59-9c41-cc02a3b7e7b4")
+		(at 78.177502 81.711242 -10)
+		(property "Reference" "REF**"
+			(at 0 0 170)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8f4332f5-aae0-4e91-9b21-d01247c5baca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1U"
+			(at 0 -8 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6561d99c-bd94-411f-816e-f0f373fadbe4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24860b94-99f9-4bc8-989d-e152ef364589")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc3c6b98-4308-4ebd-be79-a9dffd988c58")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start -6.985 6.985)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a7ec44fa-e892-4a26-8207-62443bf25c80")
+		)
+		(fp_line
+			(start -6.985 5.8166)
+			(end -6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a775d051-9f10-4c5a-b833-d0b1e30ef9e8")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end -6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9aa680ba-785e-4f0c-8b3a-c47723a2fab0")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end 6.985 -6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "63a3722c-d698-4a1c-8a58-53c625361a8f")
+		)
+		(fp_line
+			(start 6.985 5.8166)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "fb734d95-3264-42d8-8242-be6f9130ba6b")
+		)
+		(fp_line
+			(start 6.985 -6.985)
+			(end 6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cc532555-bdea-4bfd-a051-2bb4eb49ab80")
+		)
+		(embedded_fonts no)
+		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/stabilizer/plate_mount/KiCad/stabilizer_2u.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "4d8544cf-ce17-4468-88d8-3a42ed918ac5")
+		(at 15 5)
+		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
+		(tags "mountinghole M2")
+		(property "Reference" "REF**"
+			(at 0 -3.15 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5d617b2c-fb6a-4dd1-b0ab-e9b63a0deacc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(uuid "b767753b-4841-43ea-a249-225fc2f08432")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48339e46-2dcd-401e-9f8d-3c664f9e475a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a2de827-48cd-4dfe-9b8c-727ad058194d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "e2140fc3-fb63-480f-880e-ce65976f2ffb")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "664baa0e-d918-405e-a2da-02c9e4d9803e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "cffa8cf8-0f41-4823-a972-42aa81fb0ce3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "d6f29c62-0092-4d9e-9660-c5d4f3dbf144")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "BrownSugar_KBD:Stabilizer_MX_Plate_Mount_2U"
+		(layer "F.Cu")
+		(uuid "53ae6a68-96ef-4949-ac5b-31f5e50d0a9b")
+		(at 38.875838 18.546027 -10)
+		(property "Reference" "REF**"
+			(at 0 0 170)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5b2f7bc4-a07a-460b-ae44-cf138c794804")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1U"
+			(at 0 -8 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ddcb1d0-f560-4688-a6b3-0a201d92a112")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dee9874d-7ad6-4043-9c91-8bcb3daf01c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad25adde-4321-4301-b69e-74439f9911d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start -6.985 6.985)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2b127ee0-f6ea-4be9-bdac-a8486e828756")
+		)
+		(fp_line
+			(start -6.985 5.8166)
+			(end -6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ca9b961c-823d-4b21-8d6a-436b0bf9e025")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end -6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "12729ae2-fc0c-41de-91c0-58dd35c3a382")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end 6.985 -6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c3f4e1a5-4403-4076-b0da-7cc27cbacd35")
+		)
+		(fp_line
+			(start 6.985 5.8166)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "66e4a36a-f376-44e7-be8d-379539a2705c")
+		)
+		(fp_line
+			(start 6.985 -6.985)
+			(end 6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "fa0ee2b4-fe6f-4282-8d8d-4c11bdae295c")
+		)
+		(embedded_fonts no)
+		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/stabilizer/plate_mount/KiCad/stabilizer_2u.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "BrownSugar_KBD:Stabilizer_MX_Plate_Mount_2U"
+		(layer "F.Cu")
+		(uuid "5c6beed3-aa96-4e9d-9ec1-550ae1074653")
+		(at 62.371391 78.923965 -10)
+		(property "Reference" "REF**"
+			(at 0 0 170)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "80eb5639-2ec1-4fb7-b0fc-8a5372005f7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1U"
+			(at 0 -8 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d32752b6-4338-4a9b-9ac5-9e559a2b6fcb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d880a52-c33b-4f4c-9772-9e24ca306895")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4094517-a8e4-4684-a7af-8e9f7c7854c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start -6.985 6.985)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "19104e6b-5120-435f-a1d2-f3a8faf31272")
+		)
+		(fp_line
+			(start -6.985 5.8166)
+			(end -6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f5a3ea1c-37ca-4c38-acf0-f6c5a625e256")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end -6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c6b7ec58-1bc1-4a37-b08f-55e3759b01d9")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end 6.985 -6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "962f1a35-d2b3-4efe-af1e-812336d08465")
+		)
+		(fp_line
+			(start 6.985 5.8166)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "dedd5bca-9cfe-4dbc-aff1-89f8ef759b5a")
+		)
+		(fp_line
+			(start 6.985 -6.985)
+			(end 6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3c399ce0-c5c0-43dd-917c-05dc17464367")
+		)
+		(embedded_fonts no)
+		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/stabilizer/plate_mount/KiCad/stabilizer_2u.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "BrownSugar_KBD:Stabilizer_MX_Plate_Mount_2U"
+		(layer "F.Cu")
+		(uuid "62c7e9f7-9d29-40cc-9ba1-2d490065b267")
+		(at 160.225548 41.812429 10)
+		(property "Reference" "REF**"
+			(at 0 0 10)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "02959e5c-8f57-4dfe-977a-f350a7e9cab5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1U"
+			(at 0 -8 10)
+			(layer "F.Fab")
+			(uuid "76a6fce3-ca8d-4ff9-8c66-677d869a22f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 10)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c71da3a6-dab0-4592-9752-5a2d914bfaa7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 10)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74755bdf-a462-47a2-8d37-6ac9a9d36bc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start -6.985 -6.985)
+			(end -6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b347fb27-62a2-4cee-94d9-bbd2819bd69f")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end 6.985 -6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "651c26fa-2110-4011-9011-6213b9427ff8")
+		)
+		(fp_line
+			(start -6.985 5.8166)
+			(end -6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6cc9a73f-cad0-4fc8-a78b-90dbd7ff86f6")
+		)
+		(fp_line
+			(start -6.985 6.985)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "922decd7-14e3-40ed-9664-8a5bab0adcde")
+		)
+		(fp_line
+			(start 6.985 -6.985)
+			(end 6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5df66f5a-cfb0-4e73-b035-32014ad8274b")
+		)
+		(fp_line
+			(start 6.985 5.8166)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a898ca87-4b65-49e6-ae52-5e22ca5d2324")
+		)
+		(embedded_fonts no)
+		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/stabilizer/plate_mount/KiCad/stabilizer_2u.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "7aa36d90-2b46-487d-a548-d0c5dc89decc")
+		(at 76.5 65)
+		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
+		(tags "mountinghole M2")
+		(property "Reference" "REF**"
+			(at 0 -3.15 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bb8e5f8b-7cbd-4f2e-b189-67eb57cf0b09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(uuid "50d11e2d-8a3a-446e-81ce-91b6169a3f1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "747f2262-6f6f-4c25-8a6e-432846ae261c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9b36235-d00b-45f3-b443-b5cf6484b5ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "3f361d84-2b6e-4966-adfc-945928d2b39c")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "24d65e48-c76b-4903-b5e6-9fcf47dc82fc")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "1de8646a-4aa3-4dfa-aed2-40fb16d14fbe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "3c3a6908-df05-4bb9-8cad-feeb9c1b87cd")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "BrownSugar_KBD:Stabilizer_MX_Plate_Mount_2U"
+		(layer "F.Cu")
+		(uuid "98beb11c-eecb-4842-866c-2ea0835d9361")
+		(at 85.501 40.0875 -10)
+		(property "Reference" "REF**"
+			(at 0 0 170)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a186abb5-f18d-4070-bf52-ddfd6428da6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1U"
+			(at 0 -8 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa45d023-07c4-45d0-9fa3-3e9982bbfa97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6ae98ae-e86f-4d36-9959-fa686f8cc302")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1bde8f7-8d2b-438b-b192-a17baa3e4bf0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start -6.985 6.985)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "99d98bc5-08f6-4e34-b03f-f5442ccf7755")
+		)
+		(fp_line
+			(start -6.985 5.8166)
+			(end -6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "58a8781c-b250-4f6b-a856-7be96967046e")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end -6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "717b7af7-0b7a-4aee-b4c0-4c263fd79b21")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end 6.985 -6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7ceaee86-da90-4e8c-a7cc-fc8fc7675ecd")
+		)
+		(fp_line
+			(start 6.985 5.8166)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "dd743f52-a905-4f18-8ad5-fcdf2757143b")
+		)
+		(fp_line
+			(start 6.985 -6.985)
+			(end 6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "05fcbc60-d167-4c63-a354-c7d34ccbeb1a")
+		)
+		(embedded_fonts no)
+		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/stabilizer/plate_mount/KiCad/stabilizer_2u.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "BrownSugar_KBD:Stabilizer_MX_Plate_Mount_2U"
+		(layer "F.Cu")
+		(uuid "9b6cba8b-bede-4e36-aba8-b82345a4c680")
+		(at 55.931838 20.007027 -10)
+		(property "Reference" "REF**"
+			(at 0 0 170)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b2fd69bd-1c07-4be2-9f58-cf3c9255c833")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1U"
+			(at 0 -8 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cfe380a3-634d-4697-ab46-63a090aac211")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b78a4f7-aedf-459f-aa4c-cb4f1cdbf766")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f52aed6b-d9a0-448e-89ea-6efeda21e699")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start -6.985 6.985)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "efc53690-cdb3-4c3b-9855-773d98c9d5a8")
+		)
+		(fp_line
+			(start -6.985 5.8166)
+			(end -6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e97b6646-3773-4c61-8754-718a32f856ee")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end -6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "48a7d702-b540-4e1d-8f94-7dd66c0e22d1")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end 6.985 -6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0bfa605d-695c-4828-abbb-6d3a79631f0a")
+		)
+		(fp_line
+			(start 6.985 5.8166)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "817a3289-6255-47c9-863a-34af069b33d8")
+		)
+		(fp_line
+			(start 6.985 -6.985)
+			(end 6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "78b599a3-20b2-4c02-8841-7096785e6d0b")
+		)
+		(embedded_fonts no)
+		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/stabilizer/plate_mount/KiCad/stabilizer_2u.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "BrownSugar_KBD:Stabilizer_MX_Plate_Mount_2U"
+		(layer "F.Cu")
+		(uuid "9db5034a-f56d-4823-a504-75b34ebe4ae4")
+		(at 132.629568 78.93409 10)
+		(property "Reference" "REF**"
+			(at 0 0 10)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "74c04173-f473-49be-851b-14dd4ee4e903")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1U"
+			(at 0 -8 10)
+			(layer "F.Fab")
+			(uuid "073fde75-5484-4271-b7d1-f030987b45e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 10)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74bc4627-e8c6-42fa-91c3-6c91b751b835")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 10)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28d11ab2-e4af-4c0e-a7c9-0e75d4b8aaea")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start -6.985 -6.985)
+			(end -6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bb9df655-3a8a-4c0f-a3f7-3aecbbb68813")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end 6.985 -6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ea2d663e-6126-412a-b857-1ad3e07b4b8e")
+		)
+		(fp_line
+			(start -6.985 5.8166)
+			(end -6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f84c6f4d-f128-41c7-b20f-b5cd11beb097")
+		)
+		(fp_line
+			(start -6.985 6.985)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2f76ad16-3b22-458c-8824-337a055f053a")
+		)
+		(fp_line
+			(start 6.985 -6.985)
+			(end 6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1a7fd81b-0ccc-4726-b2be-edbc9c4ff510")
+		)
+		(fp_line
+			(start 6.985 5.8166)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f9e7f531-a48b-479a-b6c5-8e26a6142e17")
+		)
+		(embedded_fonts no)
+		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/stabilizer/plate_mount/KiCad/stabilizer_2u.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "BrownSugar_KBD:Stabilizer_MX_Plate_Mount_2U"
+		(layer "F.Cu")
+		(uuid "a4157503-a66d-41b9-993a-22363eee673a")
+		(at 127.143358 47.733936 10)
+		(property "Reference" "REF**"
+			(at 0 0 10)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1fbc6028-fe7c-43af-b540-badc7f31f2d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1U"
+			(at 0 -8 10)
+			(layer "F.Fab")
+			(uuid "d8a33ec3-7eaf-4cf9-9986-e6c978767078")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 10)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e77507d-71d3-419b-8662-71b812b86a97")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 10)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff023d5c-416c-4d69-afd8-b73479c386db")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start -6.985 -6.985)
+			(end -6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8a41e52e-eba4-4174-a3e2-2adcf4f10410")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end 6.985 -6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f126ba74-ef12-47cb-9046-45a99ba041fc")
+		)
+		(fp_line
+			(start -6.985 5.8166)
+			(end -6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "73853802-8bc2-40ce-95a0-9e3f47bc7803")
+		)
+		(fp_line
+			(start -6.985 6.985)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "339c9fd6-b625-43e7-b673-ad183a4926eb")
+		)
+		(fp_line
+			(start 6.985 -6.985)
+			(end 6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "94ae2f8d-4f52-4ac1-a36f-e5e276a496c6")
+		)
+		(fp_line
+			(start 6.985 5.8166)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1ded64de-8f2b-4aec-b5b6-dfdb0a3a5ee6")
+		)
+		(embedded_fonts no)
+		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/stabilizer/plate_mount/KiCad/stabilizer_2u.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "aa270dd4-45aa-4fff-ace3-153925e06e62")
+		(at 118.5 65)
+		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
+		(tags "mountinghole M2")
+		(property "Reference" "REF**"
+			(at 0 -3.15 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "96f914df-b1a4-4c0e-a081-93c2d55897d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(uuid "ee0e44f7-0ffd-4d63-9b1c-b28d7e317d82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a035d16-ce71-4479-b7ff-642bf11b584a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1155618f-a91d-49ed-b4c8-6fb1d36deee6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "d988bf7e-6897-402d-b998-db55666a6106")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "5acd809b-b958-4bdc-a030-3aaeddcf8958")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "803eccfb-cff3-4323-8acf-0387f92261b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "501b675f-990f-4be1-9f44-2f09f9978d32")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "BrownSugar_KBD:Stabilizer_MX_Plate_Mount_2U"
+		(layer "F.Cu")
+		(uuid "af3d9173-5a9d-4fb3-9248-e9dc878c0118")
+		(at 109.5 40 10)
+		(property "Reference" "REF**"
+			(at 0 0 10)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "358b54e6-d1e6-418c-9a9b-00f2111178c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1U"
+			(at 0 -8 10)
+			(layer "F.Fab")
+			(uuid "6d70b074-ad16-44ac-afb9-4a2bc6fad2e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 10)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3087c179-85ce-49ba-81b6-929ce7adcb87")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 10)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a790622-ef9a-42fd-9e09-61fde275d729")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start -6.985 -6.985)
+			(end -6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "abfd37ff-d3c2-4ecd-955e-c30ba1b7cfb0")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end 6.985 -6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "68d7bb89-8db1-4a0d-9b47-87f273beb13e")
+		)
+		(fp_line
+			(start -6.985 5.8166)
+			(end -6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "40c09879-84ac-48f2-b3f1-7b040c299c65")
+		)
+		(fp_line
+			(start -6.985 6.985)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "10398872-d190-4d94-a80a-2a2dc2212add")
+		)
+		(fp_line
+			(start 6.985 -6.985)
+			(end 6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9be123d6-f8f3-46be-93bd-c837278a1c36")
+		)
+		(fp_line
+			(start 6.985 5.8166)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b71ec313-743d-4fb7-92a3-56357caef344")
+		)
+		(embedded_fonts no)
+		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/stabilizer/plate_mount/KiCad/stabilizer_2u.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "BrownSugar_KBD:Stabilizer_MX_Plate_Mount_2U"
+		(layer "F.Cu")
+		(uuid "bc4da9a3-e619-4f4a-816b-dccc137a3987")
+		(at 67.855785 47.73343 -10)
+		(property "Reference" "REF**"
+			(at 0 0 170)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "00ad34fe-7a1f-4ab1-acea-ca73e5b854bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1U"
+			(at 0 -8 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7430656-48b0-4bcd-bf5e-ec5f62bc77a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1dcd9b99-b433-4d3f-93d0-b8549c306f49")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e78054ab-3aa9-4d2d-8df0-1b64010ebcf7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start -6.985 6.985)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b592134e-0303-41d3-b8c6-9102cfeda6d9")
+		)
+		(fp_line
+			(start -6.985 5.8166)
+			(end -6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6319966a-8dfc-4a95-9c8c-d6b13d88f7e4")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end -6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d5785eb3-79ab-4688-aee1-853f410d9161")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end 6.985 -6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0bb6baac-b06c-4a5f-99f1-e5ef70c68f83")
+		)
+		(fp_line
+			(start 6.985 5.8166)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "08b4391d-79a5-4f13-a310-58c9a8e72958")
+		)
+		(fp_line
+			(start 6.985 -6.985)
+			(end 6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0815f95a-31ff-456b-9461-3442e02f3b73")
+		)
+		(embedded_fonts no)
+		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/stabilizer/plate_mount/KiCad/stabilizer_2u.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "bd4f0231-860e-416f-9b28-46cce326f3d9")
+		(at 15 95)
+		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
+		(tags "mountinghole M2")
+		(property "Reference" "REF**"
+			(at 0 -3.15 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "544cea67-e453-42e6-a381-6b7f6c2dd2ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(uuid "0444e4c0-cc72-4191-9ace-9cdfcaee992f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97038343-8146-4e58-845c-cee0c3d19209")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8813438c-e5b0-4eff-bea5-ba3829d7b40c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "9a881b0e-cb22-4ec8-b8df-7c21e2aecb41")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "8a860381-348d-46f4-8641-6d3da8f965a4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "d9e2339c-d76d-49a9-af09-a6247c92450f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "bc16ad39-46e0-4178-8cdd-1d255b2cb81d")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "BrownSugar_KBD:Stabilizer_MX_Plate_Mount_2U"
+		(layer "F.Cu")
+		(uuid "c4a143a4-be23-470a-b6e9-ab4726e47820")
+		(at 156.12305 18.546429 10)
+		(property "Reference" "REF**"
+			(at 0 0 10)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e6147f3a-4794-48e6-b163-9e605670b1ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1U"
+			(at 0 -8 10)
+			(layer "F.Fab")
+			(uuid "a9114b74-bf74-438c-bc13-80143c2667dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 10)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24012127-e8f9-424b-ac69-440ffa6c1328")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 10)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c81fe5a-f80e-48d3-82bb-2932bb325cb5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start -6.985 -6.985)
+			(end -6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d3281dc8-d282-40a7-b18c-4f1e90a70306")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end 6.985 -6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "dd43763e-b1f4-4487-98e9-065f490e23d4")
+		)
+		(fp_line
+			(start -6.985 5.8166)
+			(end -6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "16c3071b-ce27-4077-b0d7-f703ebea7156")
+		)
+		(fp_line
+			(start -6.985 6.985)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cadc7aa2-fe9a-4d5f-a91a-49b7086e36cd")
+		)
+		(fp_line
+			(start 6.985 -6.985)
+			(end 6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d8473308-d285-4287-9d08-6e44b7469dc4")
+		)
+		(fp_line
+			(start 6.985 5.8166)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c32374c5-fabd-41c1-844c-96427ec95d69")
+		)
+		(embedded_fonts no)
+		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/stabilizer/plate_mount/KiCad/stabilizer_2u.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "BrownSugar_KBD:Stabilizer_MX_Plate_Mount_2U"
+		(layer "F.Cu")
+		(uuid "c929cc1a-58ea-49fc-ac3f-8e15ea2ea023")
+		(at 16.774 37.2185 -10)
+		(property "Reference" "REF**"
+			(at 0 0 170)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a69b0165-9ac1-4ed8-8d88-5f5a9fa83757")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1U"
+			(at 0 -8 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c525aad9-9872-45af-b5af-fa901329d2de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3339015-1789-412f-a079-564f3b4adf2d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d79f2c1e-1b70-4050-88be-ad3df7132215")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start -6.985 6.985)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bc59ef1b-77a1-41dc-8b30-40d2cbaca49e")
+		)
+		(fp_line
+			(start -6.985 5.8166)
+			(end -6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5ea7c0b4-76ee-497d-a678-f41d540f479b")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end -6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6b87b5b5-4f1d-43ba-b15f-1bf8efc5c282")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end 6.985 -6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8f834c02-8426-4824-9d4f-547971a72aed")
+		)
+		(fp_line
+			(start 6.985 5.8166)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "39bfee91-bc9c-4ec0-8fa9-3786231dc5cc")
+		)
+		(fp_line
+			(start 6.985 -6.985)
+			(end 6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "00dc688d-cce1-4486-be9e-61fe9ff672c0")
+		)
+		(embedded_fonts no)
+		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/stabilizer/plate_mount/KiCad/stabilizer_2u.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "BrownSugar_KBD:Stabilizer_MX_Plate_Mount_2U"
+		(layer "F.Cu")
+		(uuid "cf403810-4513-4a11-a1bd-ae2830f000fa")
+		(at 143.16955 43.273429 10)
+		(property "Reference" "REF**"
+			(at 0 0 10)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "31cd8cb2-2129-4e8c-aa1e-47248a0e97f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1U"
+			(at 0 -8 10)
+			(layer "F.Fab")
+			(uuid "59f7aa4a-8e35-49ab-8fdf-6813e1d47a20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 10)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a4d1b04-406f-494c-9d89-09e3998b6b0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 10)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e032c01-9cbb-46fb-a050-35cce877cc67")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start -6.985 -6.985)
+			(end -6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e4e01377-e3d5-4d6e-9187-e4576856116d")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end 6.985 -6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4b9d002e-ff1f-4f8f-af92-52478662db8f")
+		)
+		(fp_line
+			(start -6.985 5.8166)
+			(end -6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "96270d91-4b98-4051-b42c-a324f13f33c6")
+		)
+		(fp_line
+			(start -6.985 6.985)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "881639a4-537c-45d9-a705-7c5dbb2bc06d")
+		)
+		(fp_line
+			(start 6.985 -6.985)
+			(end 6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6900c878-c94d-4b8b-b5b3-2c1896eb3f9f")
+		)
+		(fp_line
+			(start 6.985 5.8166)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "76a3a9d4-ae1b-4b56-9669-818bf454ac56")
+		)
+		(embedded_fonts no)
+		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/stabilizer/plate_mount/KiCad/stabilizer_2u.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "BrownSugar_KBD:Stabilizer_MX_Plate_Mount_2U"
+		(layer "F.Cu")
+		(uuid "d03bf519-b757-4955-a396-fe3873bc0296")
+		(at 139.067427 20.006932 10)
+		(property "Reference" "REF**"
+			(at 0 0 10)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "be6fd4dc-5fd1-49c2-bf15-1171c49b86e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1U"
+			(at 0 -8 10)
+			(layer "F.Fab")
+			(uuid "0b4d4554-4e8f-4202-9ab6-f58601636189")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 10)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38881210-cf2f-4ea7-aa20-9008e1574f4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 10)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb81fb96-d843-4e9a-95bd-f1350098f76b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start -6.985 -6.985)
+			(end -6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b929c77b-a9a2-49de-bada-e49461564198")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end 6.985 -6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "be4d6c0a-205a-4aaa-a273-3de9e1aa17b9")
+		)
+		(fp_line
+			(start -6.985 5.8166)
+			(end -6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "10279a83-4728-4bb9-9cb7-babfe015920b")
+		)
+		(fp_line
+			(start -6.985 6.985)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1aa4d661-ff66-42c8-bafb-013369aeaabc")
+		)
+		(fp_line
+			(start 6.985 -6.985)
+			(end 6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "261d39ff-045c-4e48-af5a-4fc25d3a9f2a")
+		)
+		(fp_line
+			(start 6.985 5.8166)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7363c83f-c21b-4ed2-b7c0-8ea51dceed74")
+		)
+		(embedded_fonts no)
+		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/stabilizer/plate_mount/KiCad/stabilizer_2u.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "BrownSugar_KBD:Stabilizer_MX_Plate_Mount_2U"
+		(layer "F.Cu")
+		(uuid "f11ed3fb-6f7f-4668-99e3-5e5e8e4ea6c2")
+		(at 71.958285 24.46743 -10)
+		(property "Reference" "REF**"
+			(at 0 0 170)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "715ec8a9-eba6-4d67-9596-957cfcdbe79c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1U"
+			(at 0 -8 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb8f4f96-a8fb-4b88-8df1-775e0abb6056")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62be7577-80ed-4193-bd16-e357972fca76")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 170)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfff9705-91a1-4ddd-9fbe-a484ad9c15e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start -6.985 6.985)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5fae8171-7677-4141-aab6-099578c70dae")
+		)
+		(fp_line
+			(start -6.985 5.8166)
+			(end -6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "54a830ba-63c5-4f1c-8b22-39a40fb52df3")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end -6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "30203f9a-4d22-4e4e-a84c-298a82ba2db5")
+		)
+		(fp_line
+			(start -6.985 -6.985)
+			(end 6.985 -6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7198afcc-d83a-41bf-9195-726a664579b1")
+		)
+		(fp_line
+			(start 6.985 5.8166)
+			(end 6.985 6.985)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6d415573-301b-44cf-8cc1-077f6da3a30a")
+		)
+		(fp_line
+			(start 6.985 -6.985)
+			(end 6.985 5.8166)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "11b9d53b-3af7-40d0-afd6-2ecb07fa2ab8")
+		)
+		(embedded_fonts no)
+		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/stabilizer/plate_mount/KiCad/stabilizer_2u.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "fd89f13c-f141-4f5b-ade6-a5b0a8069691")
+		(at 97.5 5)
+		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
+		(tags "mountinghole M2")
+		(property "Reference" "REF**"
+			(at 0 -3.15 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "af889640-450e-4a24-9ed8-9cf4eafc5480")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(uuid "db6c379e-5d35-4d44-a5ee-18c9bec07f94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "def8d791-5d48-4ce1-8e52-84f9029e3e26")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9dfb5cbf-7df4-4a1f-9ab5-01ee67c3176a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "ab9d90f9-46dd-4e01-b86a-51ff928e09a5")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "f8cf9d9e-2a01-4f73-9e34-3059b7cb06cd")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "bd320251-948d-4ff6-af95-1e3940d0ab2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "eef99acf-b8bd-476b-9628-57e19803aa7b")
+		)
+		(embedded_fonts no)
+	)
+	(gr_line
+		(start 0.1 0.1)
+		(end 194.9 0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "873f3618-a0cf-4b59-9ddf-04f13f59a5ab")
+	)
+	(gr_line
+		(start 194.9 99.9)
+		(end 194.9 0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b56c2106-e612-4ca1-8a8f-e422caa59879")
+	)
+	(gr_line
+		(start 0.1 99.9)
+		(end 194.9 99.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b9b69f31-a3a2-4759-a243-eae7e256c882")
+	)
+	(gr_line
+		(start 0.1 99.9)
+		(end 0.1 0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "faa5047d-7eb8-408f-a6ec-702d84ef9d2e")
+	)
+	(embedded_fonts no)
+)
