@@ -17,7 +17,7 @@ KiCadを使用して、PCB基盤とスイッチプレートを作成します。
 | 名称　　　　  | 個数　　　　 |
 |:------------:|:------------:|
 | M2 6mm ねじ  |     14     |
-|      column  |    column    |
+| ゴム足 10mm  |    4       |
 |        will  |     will     |
 |          be  |      be      |
 |       right  |    center    |
