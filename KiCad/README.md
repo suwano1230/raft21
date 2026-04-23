@@ -5,6 +5,6 @@
 ## スイッチプレート
 `raft21_switchplate.kicad_pcb`
 ## PCB基盤のガーバーファイル
-発注時に必要なファイル一式`raft21-PCB-gerber.zip` 
+PCB基盤の発注時に必要なファイル一式。`raft21-PCB-gerber.zip` 
 ## スイッチプレートのガーバーファイル
-発注時に必要なファイル一式`raft21-switchplate-gerber.zip` 
+スイッチプレートの発注時に必要なファイル一式。`raft21-switchplate-gerber.zip` 
