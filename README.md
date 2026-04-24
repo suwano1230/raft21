@@ -38,5 +38,5 @@ KiCadを使用して作成。基盤を発注するのと同様に発注します
 BOOTSELボタンを押しながらUSBケーブルを接続し、Raspberry Pi Picoを書き込みモードで立ち上げ、そのフォルダ内にuf2ファイルをコピーすることで書き込みできます。
 
 ## 参考
-[Plover](https://github.com/opensteno/plover)  
-[電子速記研究会 （はやとくんの会）](https://www.hayatokun.com/)
+- [Plover](https://github.com/opensteno/plover)  
+- [電子速記研究会 （はやとくんの会）](https://www.hayatokun.com/)
