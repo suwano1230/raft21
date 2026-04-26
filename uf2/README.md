@@ -1,1 +1,1 @@
-STENTURAプロトコルで動く'raft21.uf2'
+Stenturaプロトコルで動く`raft21.uf2`
