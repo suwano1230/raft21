@@ -1,0 +1,1 @@
+STENTURAプロトコルで動く'raft21.uf2'
