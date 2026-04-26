@@ -1,2 +1,2 @@
-- Stenturaプロトコルで動きます。`raft21.uf2`  
+- Stenturaプロトコル互換で動きます。`raft21.uf2`  
 - 符号をテキストとして出力します。`raft21-sign-output-only.uf2`
