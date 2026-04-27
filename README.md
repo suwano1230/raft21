@@ -46,3 +46,4 @@ BOOTSELボタンを押しながらUSBケーブルを接続し、Raspberry Pi Pic
 ## 参考
 - [Plover](https://github.com/opensteno/plover)  
 - [電子速記研究会 （はやとくんの会）](https://www.hayatokun.com/)
+- [電子速記はやとくん](https://www.youtube.com/@%E9%9B%BB%E5%AD%90%E9%80%9F%E8%A8%98%E3%81%AF%E3%82%84%E3%81%A8%E3%81%8F%E3%82%93/shorts)
