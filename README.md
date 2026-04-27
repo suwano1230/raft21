@@ -1,6 +1,9 @@
 # raft21（ソクタイプ型のDIYキーボード）
 ## レイアウト
 <img width="639" height="302" alt="Image" src="https://github.com/user-attachments/assets/068149b4-a18e-4e09-b95e-374963c3ab1a" />
+
+
+
 ## 概要
 Stenturaプロトコル互換で動くソクタイプ型のDIYキーボードです。  
 ソクタイプは21キーで、キーの配置やキーキャップのサイズ、表面のくぼみ、高低差があるなどの特徴があります。  
